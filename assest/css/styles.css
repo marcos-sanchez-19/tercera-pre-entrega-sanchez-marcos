@@ -10,3 +10,8 @@ ul{
 li{
     list-style: none;
 }
+
+h1{
+    color: tomato;
+    font-size: 3rem;
+}
