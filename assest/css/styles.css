@@ -10,13 +10,64 @@ ul{
 li{
     list-style: none;
 }
-
-h1{
-    color: tomato;
-    font-size: 3rem;
+index{
+    font-style: roboto,times-new-roman,serif;
+}
+/* header */
+header{
+    background-color: rgba(7, 7, 7, 0.923);
+    font-size: 150%;
+    text-align:right;
 }
 
+h1{
+    color: rgb(225, 52, 21);
+    font-size: 3rem;
+    font-family:roboto,arial,sans-serif;
+    text-align: center;
+    }
+
+
+/* main */
 main{
     background-image:url(../img/fogon.jpeg) ;
     color: rgb(244, 30, 11);
+}
+
+h2{
+    text-align: center;
+    font-size: 150%;
+    font-family: roboto, sans-serif;
+}
+/* main index */
+.noticia__primera{
+    /* content: 250px x 50px;
+    width: 800px;
+    height: 600px;
+    background-color: rgb(225, 225, 176);
+    display: inline;
+    padding: 600px,500px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: auto;
+    text-align: left;
+    margin: 2px,2px,2px,2px;
+    color: #680868;
+    box-sizing: border-box;
+    border-color: rgb(219, 2, 2); */
+    width: 600px;
+    height: 500px;
+    background-color: rgb(235, 235, 196);
+    margin: 10px 10px 10px 40px;
+    border: solid 3px hsl(287, 94%, 46%);
+    border-top: 4px solid hsl(287, 94%, 46%);
+}
+.noticia__primera__img{
+    width: 500px;
+    height: 250px;
+    display: inline;
+}
+.noticia__segunda__parrafo{
+    font-style: times-new-roman;
+    
 }
