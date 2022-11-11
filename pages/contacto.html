@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assest/css/styles.css">
+    <link rel="stylesheet" href="../assest/css/styles.css">
     <link rel="stylesheet" href="./assest/">
     <title>Los Gauchos de Güemes | Educando en valores</title>
 </head>
@@ -17,10 +17,10 @@
         <nav>
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./historia.html">Historia</a></li>
-                <li><a href="./que-hacemos.html">¿Que hacemos?</a></li>
-                <li><a href="./eventos.html">Eventos</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="que-hacemos.html">¿Que hacemos?</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
         <hr>
@@ -28,10 +28,61 @@
     </header>
     <!-- main -->
     <main>
-       
+        <section>
+            <h2>Quiero colaborar</h2>
+
+            <form>
+                <div>
+                    <label for="nombre-usuario">Nombre y apellido:</label>
+                    <input type="text" name="nombre" id="nombre-usuario" placeholder="Nombre Apellido" required>
+                </div>
+                <div>
+                    <label for="mail">Email:</label>
+                    <input type="email" name="email" required placeholder="Email" required>
+                </div>
+                <div>
+                    <label for="">Asunto:</label>
+                    <select name="asunto" id="">
+                        <option value="consulta">Consultas</option>
+                        <option value="ser-scout">Quiero ser Scout</option>
+                        <option value="comprar">Quiero comprar una rifa</option>
+                        <option value="pastas">Quiero comprar pastas </option>
+                        <option value="rio-shop">Quiero Participar de Rio shop</option>
+                        <option value="campamento">Quiero Participar de campamento </option>
+                        <option value="voluntariado"> Quiero ser parte del voluntariado</option>
+                    </select>
+                </div>
+                <div>
+                    <span>Genero:</span>
+                    <label for="">Mujer</label>
+                    <input type="radio" name="genero" value="mujer">
+                    <label for="">Hombre</label>
+                    <input type="radio" name="genero" value="hombre">
+                    <label for="">Prefiero no responder</label>
+                    <input type="radio" name="genero" value="no-respuesta">
+                </div>
+                <div>
+                    <label for="Nacimiento">Nacimiento:
+                        <input type="date" name="Nacimiento" id="">
+                    </label>
+                </div>
+                <div>
+                    <label for="">A la hora de contactarse prefiere por</label> <br>
+                    <label for="mensaje">
+                    Mensaje
+                <input type="checkbox" name="mensaje" value="si">
+            </label>
+            <br>
+            <label for="llamada">LLamada
+                <input type="checkbox" name="Llamada" value="si">
+            </label>
+                </div>
+                <input type="submit" value="Enviar">
+            </form>
     </main>
     <!-- footer -->
     <footer>
+        <hr>
         <section>
             <div>
                 <nav>
